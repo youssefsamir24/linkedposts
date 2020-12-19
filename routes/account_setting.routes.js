@@ -32,6 +32,7 @@ async(req,res)=>{
 
         }else{
             console.log('error!');
+             res.redirect('/account_setting');
         }
        
         
