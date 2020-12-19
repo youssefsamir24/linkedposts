@@ -23,7 +23,7 @@
                                     <input value="<%= oldInputs.fname %>" type="text" name="fname" class="form-control inp pt-3" placeholder="First Name">
                                     <% if (errors.find(e=>e.param=='fname')) { %>
                                         <div class="alert alert-danger text-center my-3">
-                                            First Name required
+                                            First-name required capital at first
                                         </div>
                                        <% } %>
                             
@@ -34,7 +34,7 @@
                                     <input value="<%= oldInputs.lname %>" type="text" name="lname" class="form-control inp pt-3" placeholder="Last Name">
                                     <% if (errors.find(e=>e.param=='lname')) { %>
                                         <div class="alert alert-danger text-center my-3">
-                                            First Name required
+                                            Last-name required capital at first
                                         </div>
                                        <% } %>
                             
@@ -44,21 +44,21 @@
                             <input value="<%= oldInputs.username %>" type="text" name="username" class="form-control inp pt-3" placeholder="Username">
                             <% if (errors.find(e=>e.param=='username')) { %>
                                 <div class="alert alert-danger text-center my-3">
-                                    First Name required
+                                    User-name required capital at first
                                 </div>
                                <% } %>
                            
                             <input value="<%= oldInputs.email %>" type="email" name="email" class="form-control inp pt-3" placeholder="Email">
                             <% if (errors.find(e=>e.param=='email')) { %>
                                 <div class="alert alert-danger text-center my-3">
-                                    First Name required
+                                    Email incorrect
                                 </div>
                                <% } %>
                             
                             <input value="<%= oldInputs.password %>" type="password" name="password" class="form-control inp pt-3 mb-3" placeholder="Password">
                             <% if (errors.find(e=>e.param=='password')) { %>
                                 <div class="alert alert-danger text-center my-3">
-                                    First Name required
+                                    Password is invalid. ex:TEsT@5421
                                 </div>
                                <% } %>
                         
